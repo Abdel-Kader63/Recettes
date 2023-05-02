@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Accueil from './pages/Accueil';
-import Recettes from './pages/Recettes';
+import Recettes from './pages/Recettes_page';
 import Contact from './pages/Contact';
 
 

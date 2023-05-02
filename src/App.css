@@ -6,6 +6,11 @@ body
 {
   font-family: 'Rajdhani', sans-serif;
 }
+.lesH2
+{
+  color: black;
+  font-weight:bolder;
+}
 .logo2
 {
   height: 9vh;
@@ -176,23 +181,26 @@ nav a :visited
   padding: 1.5rem;
   position: relative;
   margin-top: 5vh;
+  text-align: center;
   
 }
 footer
 {
   color: white;
 }
-#bloc1
+.bloc1
 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   height: 50vh;
   margin: 5rem;
   position: relative;
+  
  
 
 }
-.sousbloc1
+
+.sousbloc1 
 {
   background-color: whitesmoke;
   color: #9B3E3E;
@@ -200,27 +208,38 @@ footer
   width: 23vw;
   position: relative;
   border: 2px #9B3E3E solid;
- 
+  
+}
+.sousbloc1  a ::visited
+{
+  
+  text-decoration: none;
   
 }
 .sousbloc1:hover
 {
   background-color: #626060;
+  color: white;
+  height: 40vh;
+  width: 23vw;
   position: relative;
   border: 2px red solid;
-  color: white;
+ 
 }
 .titreBienvenidad
 {
   color: #B53636;
   margin-top: 3rem;
+  text-align: center;
 }
 .content3bloc
 {
-  
+  font-size: xx-large;
   margin: 7rem;
   text-align: center;
+  color:#B53636;
 }
+
 .App {
   text-align: center;
 }
@@ -274,6 +293,112 @@ button:hover{
 
 }
 
+/* Recettes */
+.espaceur {
+  height: 10vh;
+}
+
+h2 {
+  color: #9B3E3E;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+.liste_card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #F5F5F5;
+  color: #9B3E3E;
+  border: 1px solid #9B3E3E;
+  width: 25%;
+}
+
+.card:hover {
+  background-color: #626060;
+  color: white;
+}
+
+.image_recette {
+  width: 100%;
+  height: 80%;
+}
+
+/* Barre de recherche */
+.searchBarchamp
+{
+  width: 25rem;
+  margin-top:5vh;
+  margin-left: 30rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  
+
+}
+.searchBarchamp:focus
+{
+  border: red solid 1rem;
+  background-color: red;
+  color: white;
+ 
+}
+
+.ResultatdeRecherche
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: rem;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 1rem;
+}
+  
+.carte_recette
+{
+  background-color: rgb(181, 86, 75);
+  width: 20rem;
+  overflow-y: auto;
+  scrollbar-color: #aaa transparent;
+  scrollbar-width: thin;
+  padding: 1rem;
+  position: relative;
+  border-radius: 2rem;
+  height: 100vh;
+  box-shadow: #282c34 1rem 1rem 2rem;
+}
+.carte_recette::-webkit-scrollbar {
+  width: 5px;
+  height:auto;
+}
+/* .carte_recette::-webkit-scrollbar-thumb {
+  background: rgb(80, 16, 16);
+  border-radius: 2rem;
+  height: 0vh;
+  
+} */
+.img_recettes
+{
+  height: 45vh;
+  width: 45vh;
+  object-fit: cover;
+  
+}
+#message_erreur
+{
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: #9B3E3E;
+  height: 5rem;
+  border: black 3px solid;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -303,3 +428,5 @@ button:hover{
     transform: rotate(360deg);
   }
 }
+
+

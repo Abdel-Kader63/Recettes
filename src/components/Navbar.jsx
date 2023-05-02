@@ -14,15 +14,15 @@ function Navbar() {
             </label>
           
             <ul class="menu__box">
-              <li><NavLink class="menu__item" to="/Recettes">Recettes sucrées</NavLink></li>
-              <li><NavLink class="menu__item" to="/Recettes">Recettes salées </NavLink></li>
-              <li><NavLink class="menu__item"  to="/Recettes">Surprise</NavLink></li>
+              <li><Link class="menu__item" to="/Recettes">Recettes sucrées</Link></li>
+              <li><Link class="menu__item" to="/Recettes">Recettes salées </Link></li>
+              <li><Link class="menu__item"  to="/Recettes">Surprise</Link></li>
             </ul>
          
           </div>
-          <img className='logo2' src={logo} alt="rien"/>
+           <img className='logo2' src={logo} alt="rien"/>
           </div>
-         
+        
 
             
             <nav>
