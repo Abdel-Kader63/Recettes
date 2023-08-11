@@ -9,4 +9,4 @@ npm install
 Une fois l'installation terminée, vous pouvez lancer l'application en utilisant la commande :
 npm start
 
- Assurez vous d'avoir Node.js et npm installés sur votre système avant de cloner et exécuter un projet React.
+ Assurez vous d'avoir Node.js et npm installés sur votre système avant de cloner et exécuter le projet React.
